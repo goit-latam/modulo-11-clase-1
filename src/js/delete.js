@@ -16,7 +16,7 @@ const deleteUserById = userId => {
   });
 };
 
-deleteUserById(12)
+deleteUserById(11)
   .then(data => {
     console.log(data);
   })
